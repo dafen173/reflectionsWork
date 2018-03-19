@@ -1,0 +1,90 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Создается новое хранилище для файлов. Здесь мы можем создавать, хранить, изменять и отслеживать изменения необходимых нам файлов.
+A new storage for files is created. Here we can create, store, modify and track changes to the files we need.
+
+
+
+
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+Репозиторий и рабочая директория это области для хранения данных, а промежуточная область предназначена для создания коммита. В эту область добавляются данные, которые войдут в данный коммит. Стайджинг ареа позволяет создавать коммиты по логическому признаку.
+
+The repository and working directory are areas for storing data, and the staging area is designed to create a commit. In this area, the data that will be included in this commit is added. Staging area allows to create commits based on the logical sign.
+
+
+
+
+
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+с помощью команды 'git diff' мы можем увидеть какие изменения в файле, который находится в рабочей папке, не вошли в staging area и решить надо ли их вносить в staging area и в данный коммит.
+
+
+With the help of the 'git diff', we can see what changes in the file that is in the working directory are not included in the staging area and decide whether they should be added to the staging area and to this commit.
+
+
+
+с помощью команды 'git diff --staged' мы можем увидеть какие изменения в файле, который находится в staging area, не вошли в последний коммит и решить надо ли их вносить в данный коммит 
+
+With the help of the "git diff --staged" command, we can see what changes in the file that is in the staging area, did not enter the last commit, and decide whether they should be added to this commit.
+
+
+
+
+
+
+
+
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Когда требуется чтобы у одной программы было два или больше  параллельных режимов (версий). 
+When it is required that one program has two or more parallel modes (versions).
+
+они позволяют организовывать две или больше независимых историй изменений данного репозитория
+They allow to organize two or more independent stories of changes to this repository.
+
+
+
+
+
+
+How do the diagrams help you visualize the branch structure?
+
+они помогают увидеть общую структуру нелинейных изменений в репозитории
+They help to see the general structure of non-linear changes in the repository.
+
+
+
+
+
+
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+Результат слияния - это объединение всех изменений в обоих ветках относительно исходного файла, созданного перед появлением веток
+The result of the merge is the consolidation of all changes in both branches relative to the original file created before the branches appeared.
+
+Для наглядного понимания появления одной и второй ветки в общей структуре изменений.
+For a visual understanding of the appearance of one and the second branch in the overall structure of the changes.
+
+
+
+
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+плюсы: экономия времени и внимания
+минусы: вероятность возникновения конфликтов, когда сливаются ветки с похожими изменениями в одной и той же части кода
+
+pros: saving time and attention
+cons: the probability of conflicts when merging branches with similar changes in the same part of the code
+

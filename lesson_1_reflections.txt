@@ -1,0 +1,89 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Fill in your answer here
+significantly reduces the search for the location of possible errors
+
+значительно сужает и сокращает поиск мест возможных ошибок
+
+
+
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+   
+    Fill in your answer here
+the possibility of flexible control over the changes in the file, both for independent work and for joint work with other programmers
+
+возможность гибкого контроля над изменениями файла, как при самостоятельной так и при совместной работе с другими програмистами 
+
+
+
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Fill in your answer here
+плюс
+возможность четко и гибко вести историю логических изменений в коде
+минус
+есть вероятность забыть сделать добавление изменений в коде
+
+pros:
+the ability to clearly and flexibly keep a history of logical changes in the code
+cons:
+there is a chance to forget to add changes to the code
+
+
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Fill in your answer here
+Потому что часто файлы в репозитории взаимосвязаны между собой и важно сохранять изменения даже только в одном файле, но при этом сохранять эти изменения относительно всех остальных файлов
+
+Because often the files in the repository are interrelated and it is important to save the changes even in only one file, but at the same time save these changes relative to the state of all other files
+
+
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Fill in your answer here
+Команда git log позволяет узнать дату и время всех совершенных изменений, их id, краткое описание каждого изменения. 
+Команда git diff позволяет сравнить любые из совершенных изменений между собой по их id и узнать конкретную разницу между данными изменениями.
+
+The git log command allows you to find the date and time of all the changes made, to find their id, to find a brief description of each change.
+The git diff command allows you to compare any of the changes made between them by their id and find out the specific difference between these changes.
+
+
+
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+Делая комиты до и после создания таких изменений, всегда можно вернуться к предыдущему комиту и исправить ошибку
+
+Making commits before and after creating such changes, you can always go back to the previous commite and correct the error
+
+
+
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+
+создать свой репозиторий и поиграться с ним
+
+Create my own repository and play with it
