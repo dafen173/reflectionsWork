@@ -1,5 +1,11 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
+Когда мне надо поработать над репозиторием с другого компьютера.  
+Когда надо другому человеку поработать над моим репозиторием с его собственного компьютера.
+
+When I need to work on the repository from another computer.
+When it is necessary for another person to work on my repository from his own computer.
+
 
 
 
