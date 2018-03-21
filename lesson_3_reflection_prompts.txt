@@ -10,11 +10,15 @@ When it is necessary for another person to work on my repository from his own co
 
 
 
-
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+Потому что над моим удаленным репозиторием могут проводить изменения другие люди и автоматическиий перенос их изменений из удаленного репозитория на мой локальный репозиторий очень нежелательно.
+Because other people can change over my remote repository and the automatic transfer of their changes from the remote repository to my local repository is highly undesirable.
+    
+    
+    
+    
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
