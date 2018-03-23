@@ -2,28 +2,35 @@ When would you want to use a remote repository rather than keeping all your work
 local?
 Когда мне надо поработать над репозиторием с другого компьютера.  
 Когда надо другому человеку поработать над моим репозиторием с его собственного компьютера.
-
 When I need to work on the repository from another computer.
 When it is necessary for another person to work on my repository from his own computer.
 
 
 
-
-
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
-
 Потому что над моим удаленным репозиторием могут проводить изменения другие люди и автоматическиий перенос их изменений из удаленного репозитория на мой локальный репозиторий очень нежелательно.
 Because other people can change over my remote repository and the automatic transfer of their changes from the remote repository to my local repository is highly undesirable.
-    
-    
+       
     
     
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
+Клонирование используется когда надо скопировать репозиторий локально, с одного компьютера на другой. Также его используют когда требуется скопировать репозиторий с локального хранилища на удаленное, на GitHub.
+Forks используются когда надо скопировать репозиторий внутри среды GitHub, с одной учетной запись на другую. 
+Branch используется когда надо организовывать две или больше независимых историй изменений данного репозитория.
+Cloning is used when you need to copy the repository locally, from one computer to another. It is also used when you need to copy the repository from the local storage to a remote one, to a GitHub.
+Forks are used when you need to copy the repository inside the GitHub environment, from one account to another.
+Branch is used when it is necessary to organize two or more independent histories of changes to this repository.
+    
+    
+    
+    
 
-    Fill in your answer here
+    
+    
+
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
