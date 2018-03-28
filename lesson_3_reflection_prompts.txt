@@ -25,17 +25,20 @@ Forks are used when you need to copy the repository inside the GitHub environmen
 Branch is used when it is necessary to organize two or more independent histories of changes to this repository.
     
     
-    
-    
-
-    
-    
+   
 
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
+Это удобно тем, что при отсутствии доступа к интернет можно все равно продолжить работу над репозиторием с самого свежего изменения (коммита).
+This is convenient because in the absence of access to the Internet, you can still continue working on the repository with the most recent change (commit).
 
-    Fill in your answer here
+
+
+
+
+
+
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
