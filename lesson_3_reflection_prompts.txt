@@ -42,8 +42,18 @@ This is convenient because in the absence of access to the Internet, you can sti
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
+Использовал бы облачные ресурсы, электронную почту, месенджеры.
+Легче бы ничего не стало.
+Сложнее стало практически все. Сложнее было бы добавлять изменения, управлять изменениями, понимать разветвленность изменений, понимать разницу между внесенными изменениями.
+Would use cloud resources, e-mail, messengers.
+It would be easier nothing.
+Almost everything became more difficult. It would be more difficult to add changes, manage changes, understand the ramification of changes, understand the difference between the changes made.
 
-    Fill in your answer here
+
+
+
+
+
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
